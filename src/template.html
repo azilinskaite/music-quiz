@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHAOS</title>
+  </head>
+  <body>
+
+    <header>
+      <h1 id="title">CHAOS - MAGAZINE</h1>
+      <!-- or img? -->
+      <nav>
+        <img src="./assets/burger-bar.png" alt="Burger menu" id="menuPlaceholder">
+        <ul>
+          <li>News</li>
+          <li>Upcoming shows</li>
+          <li>Album reviews</li>
+          <li>Quiz
+            <span>TRY IT!</span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="artworkContainer">
+        <img src="./assets/Poster.jpg" alt="Music poster">
+      </section>
+
+      <section id="quizContainer">
+        <h2>QUIZ</h2>
+        <section id="gameContainer">
+          <div id="questionContainer" class="hide">
+            <div id="progressBar"></div>
+            <h3 id="question"></h3>
+            <div id="answersContainer"></div>
+            <p id="scoreCount"></p>
+          </div>
+          <div id="scorePage">
+            <h3></h3>
+            <p></p>
+          </div>
+          <div id="controls">
+            <button id="startBtn">Start!</button>
+            <button id="nextBtn" class="hide">Next Question</button>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
