@@ -10,3 +10,4 @@ clean code structure with animations and instant feedback for enhanced user expe
 - JavaScript
 - External API
 - Responsive design
+- Webpack
